@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating</title>
+    <style>
+        .sticky{
+    position: fixed;
+    z-index:1;
+    top:0;
+    width:100%
+}
+.special{
+    color: #fff;
+    font-size: 2em;
+    
+}
+
+.special:hover{
+    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px,
+    inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav{
+    list-style:none;
+    margin:0;
+    font-size: 0.7em;
+}
+
+.main-nav > li{
+    display:inline-block;
+    padding: 20px;
+}
+
+li>a{
+    color: #f5f5f6;
+    text-decoration:none;
+    text-shadow: 2px 2px 2px darkslateblue  ;
+}
+
+li>a:hover{
+    color:#686de0;
+}
+
+.footer{
+    background-color: #092546;
+    height:250px;
+    width:100%;
+    margin-top: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0; 
+
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.updating{
+    width:100%;
+    height: 100vh;
+    background: url("update.jpg");
+    background-size: cover;
+    background-position: center;
+}
+    </style>
+</head>
+<body>
+    <nav class="special sticky">
+        <ul class="main-nav">
+            <li><a href="#">Login</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+       </nav>
+       <div class="updating">
+       </div>
+
+
+
+       <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Content Writing</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Call Us</a></li>
+                    <li><a href="#">Locations</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

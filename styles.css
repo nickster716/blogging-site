@@ -1,0 +1,124 @@
+body{
+    margin:0px;
+    color: #223b49;
+    
+}
+
+.hero{
+    background: #DA4453;  /* fallback for old browsers */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: url(https://picsum.photos/1200/1200?random=7) no-repeat;
+    /*always give 2 bg. one simple color and other image. so if image not found, simple bg will be applied*/
+    height: 700px;
+    background-size:100%;
+    color: #fff;
+    text-align: center; 
+    /* padding: 25px 0px; */
+}
+.container{
+    padding: 100px 50px;
+}
+.row{
+    display: inline-block;
+}
+    
+.article{
+    box-sizing: border-box;
+    display:inline-block;
+    padding:0 5px;
+    width: 33%;
+    
+}
+.article-image{
+    max-width: 100%;
+}
+
+.article-tag{
+    background-color: #35696e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.sticky{
+    position: fixed;
+    z-index:1;
+    top:0;
+    width:100%
+}
+.special{
+    color: #fff;
+    font-size: 2em;
+    
+}
+
+.special:hover{
+    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px,
+    inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav{
+    list-style:none;
+    margin:0;
+    font-size: 0.7em;
+}
+
+.main-nav > li{
+    display:inline-block;
+    padding: 20px;
+}
+
+li>a{
+    color: #f5f5f6;
+    text-decoration:none;
+    text-shadow: 2px 2px 2px darkslateblue  ;
+}
+
+li>a:hover{
+    color:#686de0;
+}
+
+.welcome{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:
+}
+
+.container>h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.article> h2{
+    text-align: center;
+    color: #223b49;
+
+}
+
+.footer{
+    background-color: #092546;
+    height:250px;
+    width:100%;
+    margin-top: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0; 
+
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
